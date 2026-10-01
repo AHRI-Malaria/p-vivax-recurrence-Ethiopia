@@ -1,0 +1,63 @@
+﻿variables,definitions
+sno,serial number
+id_round,patient id combined with round of visit
+cat,malaria status (category) by symptoms
+date_bl,date of recruitment at baseline
+date_diff, difference in number of days between recruitment and follow-up
+id,patient id at baseline
+round,nth number of round of visit at follow-up time
+totalvisit_1,total number of visits that patients followed
+age_bl,age of the patients
+gender_bl,gender of the patients
+temperature_bl,axillary temperature of the patients at baseline
+sick_malaria_1_year_bl,patient's history of malaria with the last one year
+how_many_times_bl,"if patients have experienced with the last one year, frequency of the illness"
+sick_malaria_3_months_bl,patient's history of malaria with the three months
+fever_last_48hrs_bl,history of fever on the patient with the last 48 hrs at baseline 
+temperature_fl,axillary temperature of the patients at follow up time
+fever_in_48hrs_fl,history of fever on the patient with the last 48 hrs at follow up time
+date_visit,date of visit at follow up
+status,"status of the visit: ""recruitment"" or ""follow up"""
+mic_status,parasite posivity by microscope 
+mic_species,parasite species by microscope 
+parasite_load_asex,asexual parasite density by microscope per microliter
+parasite_load_gamet,gametocyte density by microscope per microliter
+infcat_combined,status of the infection both by microscope and PCR
+type_infection,"status of the infection: ""symptomatic"" or ""asymptomatic"""
+par_sps_new,parasite species by PCR
+clinical_status,"status of the infection: ""recruitment"", or ""symptomatic"" or ""asymptomatic"", or ""symp_persisiting"", or ""Asymp_persisting""new_infection"", or ""Negative"""
+infcat_status,"status of the infection: ""Recruitment"" or ""Recurrence"", or ""Persisiting"", or ""Pf"""
+recurrenceinstance,recurrence instance (nth recurrence from the baseline)
+total_recurrence,total recurrence the patient experienced during the follow up
+symp_rec_total,symptomatic total recurrence the patient experienced during the follow up
+symp_rec_instance,symptomatic recurrence instance (nth symptomatic recurrence from the baseline)
+asymp_rec_instance,asymptomatic recurrence instance (nth asymptomatic recurrence from the baseline)
+cleared,If the patient is experiencing the recurrence during follow-up: atleast one=1; if not=0
+recurrence_symptomatic_than1,experienced atleast one symptomatic recurrence
+asymptomatic_recurrence,Experienced only asymptomatic recurrence throughout the follow-up time 
+persisting_symptomatic_than1,Experienced at least one symptomatic persisting recurrence
+asymptomatic_persisting,Experienced at least one asymptomatic persisting recurrence
+days_total_length,total number of the days the patients followed (stayed in the study)
+tstart,"day at the start of patient visited, recruitment or after recurrence"
+tstop,Day at the patient experienced recurrence from recruitment or recurrence
+tgap,the time gap (in days) from the previous visit to time recurrence
+event,"event count as ""1"" if the patient has atleast one recurrence and ""0"" if not"
+fever_bl,fever at baseline based on axillary temperature
+gam_prev,gametocyte postivity
+age_cat1,age category 
+trt_given,Treatment given at baseline and recurrence 
+treated_cqpq,if CQ and PQ treatment given at baseline and recurrence 
+pfpar_ul,Pf parasite density
+pvcopy_ul,Pv18S copies per microliter
+pvs25_copies_ul,Pvs25 transcript copies per microliter
+number_dissect,number of dissected mosquitoes 
+number_inf,number of infected mosquitoes
+percent_inf,percent of infected mosquitoes
+infectiousness,status of infectivity
+mean_ocyst_pos,mean oocyst density
+id_round_prev,patient id of the previous sampling (visit) for genotyping of current id
+idround,Patient ID (sample ID) genotyped 
+posterior_marginal_prob_c,Posterior probability result to be recrudscence
+posterior_marginal_prob_l,Posterior probability result to be relapse
+posterior_marginal_prob_i,Posterior probability result to be reinfection
+recurrence_type,final result of the recurrence based on genotyping
